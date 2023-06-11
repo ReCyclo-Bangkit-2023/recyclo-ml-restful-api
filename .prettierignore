@@ -1,0 +1,5 @@
+.husky/
+.temp/
+
+dist/
+node_modules/

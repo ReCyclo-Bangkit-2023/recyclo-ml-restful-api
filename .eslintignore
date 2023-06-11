@@ -1,0 +1,9 @@
+.*rc.js
+.*rc.cjs
+.*rc.mjs
+
+*.config.js
+*.config.cjs
+*.config.mjs
+
+dist/
