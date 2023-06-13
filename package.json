@@ -4,6 +4,7 @@
   "author": "Muhammad Nadhif Nashrullah <nadhifn1261@gmail.com>",
   "private": "true",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=production node src/server.js",
     "start-dev": "nodemon src/server.js",
