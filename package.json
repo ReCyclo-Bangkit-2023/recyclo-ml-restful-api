@@ -47,6 +47,7 @@
     "prettier": "2.8.8"
   },
   "dependencies": {
-    "@hapi/hapi": "^21.3.2"
+    "@hapi/hapi": "^21.3.2",
+    "@tensorflow/tfjs-node": "^4.7.0"
   }
 }
