@@ -4,4 +4,4 @@ Team C23-PC722
 
 ## License
 
-[MIT](https://github.com/ReCyclo-Bangkit-2023/recyclo-ml-restful-api/blob/main/LICENSE.md)
+[MIT](https://github.com/ReCyclo-Bangkit-2023/recyclo-ml-restful-api/blob/main/LICENSE)
