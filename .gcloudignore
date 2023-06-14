@@ -1,0 +1,12 @@
+node_modules/
+
+.husky/
+
+.*ignore
+
+.*rc.js
+.*rc.cjs
+.*rc.mjs
+
+.*rc
+
