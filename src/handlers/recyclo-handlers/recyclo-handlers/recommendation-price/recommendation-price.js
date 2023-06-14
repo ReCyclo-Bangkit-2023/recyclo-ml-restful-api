@@ -26,7 +26,7 @@ async function loadImage(imageBuffer) {
   return expandedTensor;
 }
 
-async function predictRecycledItem(imageBuffer) {
+async function predictRecycledItemPrice(imageBuffer) {
   const modelClass = await loadModel(
     './src/machine-learning/object-classification-model/model.json'
   );
@@ -51,14 +51,14 @@ const recommendationPrice = async (request, h) => {
   try {
     const { image } = request.payload;
 
-    const priceRecommended = await predictRecycledItem(image);
+    const recommendedPrice = await predictRecycledItemPrice(image);
 
     return h
       .response({
         error: false,
         message: 'success',
         data: {
-          priceRecommended: Math.ceil(priceRecommended),
+          recommendedPrice: Math.ceil(recommendedPrice),
         },
       })
       .code(200);
